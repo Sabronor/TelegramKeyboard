@@ -24,7 +24,7 @@ public class TelegramKeyboard {
             List<InlineKeyboardButton> Rows = new ArrayList<>();
             Rows.add(AllButtons.get(i));
 
-            if(i != buttons.length - 1) Rows.add(AllButtons.get(i));
+            if(i != buttons.length - 1) Rows.add(AllButtons.get(i + 1));
 
             Columns.add(Rows);
         }
